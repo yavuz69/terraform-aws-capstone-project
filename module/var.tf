@@ -31,5 +31,5 @@ variable "git-name" {
 }
 
 variable "git-token" {
-  default   = "your github token"
+  default   = "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"
 }

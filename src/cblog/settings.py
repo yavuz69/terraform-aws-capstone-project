@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'cblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-db_endpoint = open("/home/ec2-user/aws-capstone-terraform-project/src/dbserver.endpoint", 'r', encoding='UTF-8')
+db_endpoint = open("/home/ec2-user/terraform-aws-capstone-project/src/dbserver.endpoint", 'r', encoding='UTF-8')
 
 DATABASES = {
     'default': {

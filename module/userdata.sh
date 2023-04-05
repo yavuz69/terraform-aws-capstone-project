@@ -8,6 +8,7 @@ git clone https://github.com/yavuz69/terraform-aws-capstone-project.git
 cd /home/ubuntu/terraform-aws-capstone-project
 apt install python3-pip -y
 apt-get install python3.7-dev default-libmysqlclient-dev -y
+cd /home/ubuntu/terraform-aws-capstone-project/module
 pip3 install -r requirements.txt
 cd /home/ubuntu/terraform-aws-capstone-project/src
 python3 manage.py collectstatic --noinput

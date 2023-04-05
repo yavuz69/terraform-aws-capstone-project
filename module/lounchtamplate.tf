@@ -25,7 +25,7 @@ resource "aws_launch_template" "launch-t" {
 resource "github_repository_file" "dbendpoint" {
   content = aws_db_instance.capstone_rds.address
   file = "src/dbserver.endpoint"
-  repository = "aws-capstone-terraform-project"
+  repository = "terraform-aws-capstone-project"
   overwrite_on_create = true
   branch = "main"
 }
